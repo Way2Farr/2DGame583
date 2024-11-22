@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: e412e7873be0a470689b144ec0615a3e, type: 3}
       propertyPath: m_SortingLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: e412e7873be0a470689b144ec0615a3e, type: 3}
       propertyPath: m_SortingOrder
@@ -872,7 +872,7 @@ MonoBehaviour:
   groundCheck: {fileID: 425286611}
   groundMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   acceleration: 0.3
   groundDecay: 0.679
   maxXSpeed: 2

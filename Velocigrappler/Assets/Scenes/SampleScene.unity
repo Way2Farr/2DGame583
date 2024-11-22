@@ -348,12 +348,13 @@ MonoBehaviour:
   groundCheck: {fileID: 1739210310}
   groundMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   acceleration: 0.3
   groundDecay: 0.679
   maxXSpeed: 2
   jumpSpeed: 3.5
   grounded: 0
+  soundEffect: {fileID: 0}
 --- !u!231 &886431435
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -735,7 +736,7 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1220522616
@@ -866,6 +867,7 @@ MonoBehaviour:
     m_Bits: 128
   maxDistance: 15
   launchSpeed: 3
+  grappledSpeed: 0.5
   resolution: 100
   waveCount: 4
   wobbleCount: 2
@@ -876,6 +878,7 @@ MonoBehaviour:
   a_camera: {fileID: 963194227}
   joint: {fileID: 886431435}
   body: {fileID: 886431432}
+  soundEffects: {fileID: 0}
 --- !u!120 &1222862786
 LineRenderer:
   serializedVersion: 2
@@ -1094,7 +1097,7 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1739210309
